@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>წიგნების მაღაზია</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <img src="/images/love this logooo.webp" alt="Anamas Shop Logo">
+            <h1>anamas shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">მთავარი</a></li>
+                <li><a href="#" onclick="showSection('contact')">კონტაქტი</a></li>
+                <li><a href="#" onclick="showSection('about')">ავტორები</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>ANAMAS SHOP საუკეთესო წიგნების მაღაზია</h2>
+
+            <section id="video">
+                <div class="video-container">
+                    <video controls autoplay>
+                        <source src="/video/Screen Recording 2025-04-11 182702.mp4" type="video/mp4">
+                    
+                    </video>
+                </div>
+            </section>
+
+            
+            
+
+            <div class="book-list">
+                <!-- პირველი რიგი -->
+                <div class="book-item">
+                    <img src="/images/natvra.jpg" alt="ნატვრა">
+                    <h4>მე ვხედავ მზეს</h4>
+                    <p>ჯადოსნური თავგადასავლები.</p>
+                    <p class="price">₾20.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            
+                <div class="book-item">
+                    <img src="/images/me vxedav mzes.png" alt="მე ვხედავ მზეს">
+                    <h4>მე ვხედავ მზეს</h4>
+                    <p>ჯადოსნური თავგადასავლები.</p>
+                    <p class="price">₾20.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            
+                <div class="book-item">
+                    <img src="/images/harry poter.jpg" alt="ჰარი პოტერი">
+                    <h4>ჰარი პოტერი</h4>
+                    <p>ჯადოსნური თავგადასავლები.</p>
+                    <p class="price">₾20.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            
+                <!-- მეორე რიგი: მარცხენა ახალი -->
+                <div class="book-item">
+                    <img src="/images/ლედი ჩატერლი - საყვარელი.jpg" alt="მარცხენა წიგნი">
+                    <h4>ლედი ჩატერლი - საყვარელი</h4>
+                    <p>D. H. Lawrence’s Lady Chatterley’s Lover is a novel.</p>
+                    <p class="price">₾18.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            
+                <!-- უკვე არსებული შუა წიგნი -->
+                <div class="book-item">
+                    <img src="/images/didostatis marjvena.jpg" alt="დიდოსტატის მარჯვენა">
+                    <h4>დიდოსტატის მარჯვენა</h4>
+                    <p>ქართული ლიტერატურის შედევრი.</p>
+                    <p class="price">₾25.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            
+                <!-- მარჯვენა ახალი წიგნი -->
+                <div class="book-item">
+                    <img src="/images/გალაპაგოსი.jpg" alt="მარჯვენა წიგნი">
+                    <h4>გალაპაგოსი</h4>
+                    <p>კურტ ვონეგუტის „გალაპაგოსი“ მკითხველს მილიონი წლით უკან,</p>
+                    <p class="price">₾19.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            </div>
+            
+            </div>
+            <section id="genres" class="genres">
+                <h2>ჟანრები</h2>
+                <ul>
+                    <li><a href="#" onclick="showSection('fantasy')">ფანტასტიკა</a></li>
+                    <li><a href="#" onclick="showSection('adventure')">სათავგადასავლო</a></li>
+                    <li><a href="#" onclick="showSection('romance')">რომანი</a></li>
+                    <li><a href="#" onclick="showSection('documentary')">დოკუმენტური</a></li>
+                </ul>
+            </section>
+        </div>
+    </section>
+    <section id="fantasy" class="section" style="display:none;">
+        <div class="container">
+            <h2>ფანტასტიკური წიგნები</h2>
+            
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="/images/bneli gza.jpg" alt="ბნელი გზა">
+                    <h4>ბნელი გზა</h4>
+                    <p></p>
+                    <p class="price">₾30.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-item">
+                    <img src="/images/salims-loti.jpg" alt="სალიმს-ლოტი">
+                    <h4>სალიმს-ლოტი</h4>
+                    <p></p>
+                    <p class="price">₾35.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-item">
+                    <img src="/images/harry poter.jpg" alt="ჰარი პოტერი">
+                    <h4>ჰარი პოტერი</h4>
+                    <p></p>
+                    <p class="price">₾25.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="adventure" class="section" style="display:none;">
+        <div class="container">
+            <h2>სათავგადასავლო წიგნები</h2>
+            
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="/images/bewdis brndzanebeli.jpg" alt="ბეჭდის ბრძანებელი">
+                    <h4>ბეჭდის ბრძანებელი</h4>
+                    <p>დაინტერესებული ხარ თავგადასავლებით?</p>
+                    <p class="price">₾22.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-item">
+                    <img src="/images/putini.jpg" alt="რატომ ირჩევენ რუსები პუტინს">
+                    <h4>რატომ ირჩევენ რუსები პუტინს</h4>
+                    <p>გაიარე ულამაზესი ადგილები.</p>
+                    <p class="price">₾25.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-item">
+                    <img src="images/მერი პოპინსი სამზარეულოში 6ტ.png" alt="მერი პოპინსი სამზარეულოში 6ტ">
+                    <h4>მერი პოპინსი სამზარეულოში 6ტ</h4>
+                    
+                    <p class="price">₾25.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="romance" class="section" style="display:none;">
+        <div class="container">
+            <h2>რომანტიკული წიგნები</h2>
+            
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="/images/ხვალ და ხვალ და ხვალ.jpg" alt="ხვალ და ხვალ და ხვალ">
+                    <h4>ხვალ და ხვალ და ხვალ</h4>
+                    
+                    <p class="price">₾18.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-list">
+                    <div class="book-item">
+                        <img src="images/კოლექციონერი.jpg" alt="კოლექციონერი">
+                        <h4>კოლექციონერი</h4>
+                        
+                        <p class="price">₾18.00</p>
+                        <button class="add-to-cart">კალათში დამატება</button>
+                    </div>
+                    <div class="book-list">
+                    <div class="book-item">
+                        <img src="/images/arasdros gamishva.jpg" alt="არასდროს გამიშვა">
+                        <h4>არასდროს გამიშვა</h4>
+                        
+                        <p class="price">₾18.00</p>
+                        <button class="add-to-cart">კალათში დამატება</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section id="documentary" class="section" style="display:none;">
+        <div class="container">
+            <h2>დოკუმენტური წიგნები</h2>
+            
+
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="/images/roca ayvavda nushi.jpg" alt="როცა აყვავდა ნუში">
+                    <h4>როცა აყვავდა ნუში</h4>
+                    <p>დოკუმენტური ამბავი.</p>
+                    <p class="price">₾20.00</p>
+                    <button class="add-to-cart">კალათში დამატება</button>
+                </div>
+                <div class="book-list">
+                    <div class="book-item">
+                        <img src="/images/წითელ თმიანი გოგონას დღიური.jpg" alt="წითელ თმიანი გოგონას დღიური">
+                        <h4>წითელ თმიანი გოგონას დღიური</h4>
+                        <p>დოკუმენტური ამბავი.</p>
+                        <p class="price">₾20.00</p>
+                        <button class="add-to-cart">კალათში დამატება</button>
+                    </div>
+                    <div class="book-list">
+                        <div class="book-item">
+                            <img src="/images/დეიზი ჯოუნსი და ექვსეული.jpg" alt="დეიზი ჯოუნსი და ექვსეული">
+                            <h4>დეიზი ჯოუნსი და ექვსეული</h4>
+                            <p>დოკუმენტური ამბავი.</p>
+                            <p class="price">₾20.00</p>
+                            <button class="add-to-cart">კალათში დამატება</button>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h3>კონტაქტი</h3>
+            <form action="mailto:books@example.com" method="POST" enctype="text/plain">
+                <label for="name">სახელი:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">ელ. ფოსტა:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">წერილი:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </div>
+    </section>
+<section id="about" class="section">
+    <div class="container">
+        <h2>ავტორები</h2>
+        <div class="author-list">
+            <div class="author-item">
+                <img src="/images/ჯოან როულინგი.jpg" alt="ჯოან როულინგი">
+                <h4>ჯოან როულინგი</h4>
+            </div>
+            <div class="author-item">
+                <img src="/images/მადელინ მილერი.jpg" alt="ავტორი 2">
+                <h4>მადელინ მილერი</h4>
+            </div>
+            <div class="author-item">
+                <img src="/images/ანა ფრანკი.jpg" alt="ავტორი 3">
+                <h4>ანა ფრანკი</h4>
+            </div>
+            <div class="author-item">
+                <img src="/images/ეკა ქევანიშვილი.jpg" alt="ავტორი 4">
+                <h4>ეკა ქევანიშვილი</h4>
+            </div>
+            <div class="author-item">
+                <img src="/images/იული ცე.jpg" alt="ავტორი 5">
+                <h4>იული ცე</h4>
+            </div>
+            <div class="author-item">
+                <img src="/images/ანა გავალდა.jpg" alt="ავტორი 6">
+                <h4>ანა გავალდა</h4>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<footer class="custom-footer">
+    <div class="footer-content">
+        <!-- მარცხენა ნაწილი: კონტაქტი -->
+        <div class="footer-left">
+            <p>📍  იოსებიძის ქ. №49, თბილისი</p>
+            <p>📞  ტელ: +995 32 248 68 44</p>
+            <p>📧  ელ.ფოსტა: book@anamasshop.ge</p>
+        </div>
+
+        <!-- მარჯვენა ნაწილი: ლინკები და სოციალური ღილაკები -->
+        <div class="footer-right">
+            <p>
+                <a href="#">🏠 მთავარი</a> |
+                <a href="#">📧 კონტაქტი</a> |
+                <a href="#">📚 ავტორები</a>
+            </p>
+            <p>შემოგვიერთდი: 
+                <a href="#" class="social-icon"><img src="/images/facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="/images/instagram.6753b12.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="/images/tik-tok.png" alt="tik-tok"></a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer Bottom - წელი -->
+    <div class="footer-bottom">
+        <p class="footer-year">© 2025 <strong>anamas shop</strong> - ყველა უფლება დაცულია</p>
+    </div>
+</footer>
+
+</footer>
+
+    <script>
+        // Function to hide all sections and only show the selected one
+        function showSection(section) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach((el) => {
+                el.style.display = 'none';
+            });
+            // Show the selected section
+            document.getElementById(section).style.display = 'block';
+
+            // Hide genres section when not on home page
+            if (section !== 'home') {
+                document.getElementById('genres').style.display = 'none';
+            } else {
+                document.getElementById('genres').style.display = 'block';
+            }
+        }
+
+        // Initially show the home section when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('home');
+        });
+    </script>
+
+</body>
+</html>
